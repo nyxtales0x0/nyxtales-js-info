@@ -22,9 +22,7 @@
 		provident, modi libero, commodi tempora odit veniam aperiam odio voluptatibus ipsa quia
 		repellendus.
 	</p>
-	<p>
-		<Prism code={Greet} language="javascript" />
-	</p>
+	<Prism code={Greet} language="javascript" />
 	<Note>This is a note.</Note>
 	<Tip>This is a tip.</Tip>
 	<Warn>This is a warning.</Warn>
@@ -32,11 +30,8 @@
 
 <style>
 	article {
-		background-color: rgb(255, 255, 255);
 		display: flex;
 		flex-direction: column;
-		flex-grow: 1;
-		margin: auto;
 		padding: 0 10vw;
 	}
 

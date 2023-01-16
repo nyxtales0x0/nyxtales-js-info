@@ -8,7 +8,7 @@
 	nav,
 	footer {
 		backdrop-filter: blur(2px);
-		background-color: #eef1f6;
+		background-color: #eeeeee;
 		padding: 5px;
 	}
 </style>
