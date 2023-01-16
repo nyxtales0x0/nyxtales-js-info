@@ -1,15 +1,14 @@
-<nav><!-- navigator panel --></nav>
+<nav>!-- navigator panel --</nav>
 
 <slot />
 
-<footer><!-- footer section --></footer>
+<footer>!-- footer section --</footer>
 
 <style>
-	nav {
+	nav,
+	footer {
 		backdrop-filter: blur(2px);
-		background-color: rgba(236, 239, 244, 0.8);
-		height: 6%;
-		margin-bottom: 3rem;
-		width: 100%;
+		background-color: #eef1f6;
+		padding: 5px;
 	}
 </style>

@@ -33,10 +33,17 @@
 <style>
 	article {
 		background-color: rgb(255, 255, 255);
+		display: flex;
+		flex-direction: column;
 		flex-grow: 1;
 		margin: auto;
-		padding: 4rem 9rem;
-		width: 70%;
+		padding: 0 10vw;
+	}
+
+	@media only screen and (max-width: 550px) {
+		article {
+			padding: 0 5vw;
+		}
 	}
 
 	h1 {

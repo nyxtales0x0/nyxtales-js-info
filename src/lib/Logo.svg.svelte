@@ -1,9 +1,7 @@
 <svg
-	viewBox="0 0 640 400"
+	viewBox="100 50 440 300"
 	data-background-color="#ffffff"
 	preserveAspectRatio="xMidYMid meet"
-	height="400"
-	width="640"
 	xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 >
@@ -1042,7 +1040,9 @@
 
 <style>
 	svg {
-		margin-bottom: 2rem;
-		width: 100%;
+		align-self: center;
+		margin-bottom: 4rem;
+		margin-top: 2rem;
+		width: min(440px, 100%);
 	}
 </style>
